@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Meu Carrinho AOP/app/src/main/java/com/berio/meucarrinhoaop/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 33,
+          "index": 34,
+          "line": 1
+        },
+        "start": {
+          "column": 33,
+          "index": 34,
+          "line": 1
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Meu Carrinho AOP/app/src/main/java/com/berio/meucarrinhoaop/MainActivity.java"
+}

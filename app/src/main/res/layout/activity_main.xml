@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <EditText
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:hint="Buscar item..."
+         android:id="@+id/searchField" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="#2196F3"
+         android:textColor="#FFFFFF"
+         android:id="@+id/btnAdicionar"
+         android:text="Adicionar Item" />
+
+    <ListView
+         android:layout_height="0dp"
+         android:layout_width="match_parent"
+         android:layout_weight="1"
+         android:id="@+id/listView">
+
+    </ListView>
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="end"
+         android:textSize="18sp"
+         android:id="@+id/totalText"
+         android:text="Total: R$ 0.00"
+         android:textStyle="bold"
+         android:paddingTop="10dp" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="#F44336"
+         android:textColor="#FFFFFF"
+         android:id="@+id/btnLimpar"
+         android:text="Limpar Lista" />
+
+</LinearLayout>
